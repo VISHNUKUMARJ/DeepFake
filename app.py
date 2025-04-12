@@ -9,6 +9,7 @@ from utils.image_checker import check_fake_image
 from utils.video_checker import check_fake_video
 from utils.audio_checker import check_fake_audio
 from utils.text_checker import check_fake_text
+from keras.layers import LocallyConnected2D
 
 app = Flask(__name__)
 CORS(app)  # Allows frontend JS to talk to backend
