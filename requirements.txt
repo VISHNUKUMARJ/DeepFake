@@ -8,5 +8,5 @@ requests==2.31.0
 streamlit==1.24.0
 Pillow
 opencv-python-headless==4.7.0.72
-tensorflow
+tensorflow==2.3.0
 scikit-image==0.22.0
