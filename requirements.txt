@@ -1,0 +1,8 @@
+Flask==2.0.1
+Flask-CORS==3.0.10
+numpy==1.21.2
+librosa==0.8.1
+deepface==0.0.75
+opencv-python==4.5.3.56
+werkzeug==2.0.1
+requests==2.26.0
