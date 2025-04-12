@@ -10,6 +10,9 @@ from utils.video_checker import check_fake_video
 from utils.audio_checker import check_fake_audio
 from utils.text_checker import check_fake_text
 
+# Remove this line as it's causing the error and isn't used:
+# from keras.layers import LocallyConnected2D
+
 app = Flask(__name__)
 CORS(app)  # Allows frontend JS to talk to backend
 
